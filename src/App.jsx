@@ -16,7 +16,7 @@ const combinedState = combineReducers({ mentalHealth, physicalHealth });
 //   };
 // }
 
-// function that will take a state and a yell(action)
+// 4. function that will take a state and a yell(action)
 // this function HAVE TO BE PURE!
 // these are REDUCERS
 function mentalHealth(state = 100, action) {
